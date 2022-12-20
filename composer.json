@@ -1,0 +1,23 @@
+{
+    "name": "pc/prac-mongo",
+    "autoload": {
+        "psr-4": {
+            "Pc\\PracMongo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JelloMangune",
+            "email": "mangune.jello@auf.edu.ph"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.12",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    
+    "config": {
+
+        "platform-check": false
+    }
+}
